@@ -13,6 +13,62 @@
     "price": "price",
     "description": "description",
     "image": "image"
+   },
+   {
+    "id": "17",
+    "name": "Persimmon",
+    "price": "23.56",
+    "description": "I love you from my head tomatoes.",
+    "image": "./public/images/17.jpg"
+  },
+  { 
+    "id": "18",
+    "name": "Kohlrabi",
+    "price": "00.87",
+    "description": "It takes two to mango.",
+    "image": "./public/images/18.jpg"
+   },
+   {
+    "id": "19",
+    "name": "Chicory Witloof",
+    "price": "12.46",
+    "description": "You did a grape job raisin me.",
+    "image": "./public/images/19.jpg"
+  },
+  { 
+    "id": "20",
+    "name": "Hedge Apple",
+    "price": "1234567.89",
+    "description": "I'm feeling melon-choly.",
+    "image": "./public/images/20.jpg"
+   },
+   {
+    "id": "21",
+    "name": "Cloudberry",
+    "price": "45.02",
+    "description": "Olive you so much.",
+    "image": "./public/images/21.jpg"
+  },
+  { 
+    "id": "22",
+    "name": "Guavas",
+    "price": "3.21",
+    "description": "Marry you? No, I cantaloupe.",
+    "image": "./public/images/22.jpg"
+   },
+   {
+    "id": "23",
+    "name": "Pomegranate",
+    "price": "4.99",
+    "description": "I yam what I yam!",
+    "image": "./public/images/23.jpg"
+  },
+  { 
+    "id": "24",
+    "name": "passionfruit",
+    "price": "68.21",
+    "description": "Lettuce turnip the beets!",
+    "image": "./public/images/24.jpg"
    } 
   ]
 }
