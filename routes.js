@@ -9,3 +9,22 @@ router.get ('/', (req, res) => {
   res.send('Hello world')
 })
 
+router.get ('/cart', (req, res) => {
+  res.send('cart')
+})
+
+router.get ('/categories', (req, res) => {
+  res.send('category page')
+})
+
+router.get ('/categories/:id', (req, res) => {
+  const id = req.params.id //just testing 1 or 2
+
+  if (id == 1){
+    res.send('category id' + id)
+  }
+ else if (id == 2){
+  res.send('category id' + id)
+}
+})
+
