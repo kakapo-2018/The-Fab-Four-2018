@@ -11,10 +11,11 @@
     "jest": "^23.5.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3",
-    "debug": "nodemon"
+    "nodemon": "^1.18.3"
+
   },
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "debug": "nodemon --inspect index --ignore produce.json"
   }
 }

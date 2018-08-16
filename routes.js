@@ -6,6 +6,6 @@ const data = require('./produce.json')
 module.exports = router
 
 router.get ('/', (req, res) => {
-  res.send('Hello world')
+  res.render('./views')
 })
 
