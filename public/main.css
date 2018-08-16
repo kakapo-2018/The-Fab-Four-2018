@@ -1,0 +1,11 @@
+.navbar .navbar-text {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.full{
+  text-align: center;
+  margin: 0;
+}
