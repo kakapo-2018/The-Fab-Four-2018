@@ -1,6 +1,62 @@
 {
   "produce":[
     {
+      "id": "1",
+      "name": "Dragon Fruit",
+      "price": "3.50",
+      "description": "Eat this, become a dragon",
+      "image": "./public/images/dragonfruit-01"
+    },
+    {
+      "id": "2",
+      "name": "Star Fruit",
+      "price": "96.00",
+      "description": "Harvested from a Fallen Star, sweet and Grants a wish",
+      "image": "./public/images/starfruit-02"
+    },
+    {
+      "id": "3",
+      "name": "Passion Fruit",
+      "price": "3.10",
+      "description": "Passionfruit and mango fruit souffle mm..",
+      "image": "./public/images/passionfruit-03"
+    },
+    {
+      "id": "4",
+      "name": "Mango",
+      "price": "5.00",
+      "description": "When a man has to go, he's a mango",
+      "image": "./public/images/mango-04"
+    },
+    {
+      "id": "5",
+      "name": "Mangosteen",
+      "price": "",
+      "description": "It's a Mango + Steen mmm..",
+      "image": "./public/images/mangosteen-05"
+    },
+    {
+      "id": "6",
+      "name": "Coconut",
+      "price": "",
+      "description": "Chocolate Nut",
+      "image": "./public/images/coconut-06"
+    },
+    {
+      "id": "7",
+      "name": "Custard Apple",
+      "price": "6.00",
+      "description": "Mmm...",
+      "image": "./public/images/custardapple-07"
+    },
+    {
+      "id": "8",
+      "name": "Durian",
+      "price": "40.00",
+      "description": "Smelly, Spikey, Yummy",
+      "image": "./public/images/durian-08"
+    },
+    {
       "id": "09",
       "name": "Asparagus",
       "price": "3.99",
