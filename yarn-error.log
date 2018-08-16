@@ -1,14 +1,25 @@
 Arguments: 
+<<<<<<< HEAD
   /home/student/.nvm/versions/node/v8.11.2/bin/node /usr/share/yarn/bin/yarn.js init
 
 PATH: 
   /home/student/.nvm/versions/node/v8.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+=======
+  /home/student/.nvm/versions/node/v8.10.0/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/student/.nvm/versions/node/v8.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+>>>>>>> 01468a204ed71a0bd7ad16bc52b1d60a0f01c72d
 
 Yarn version: 
   1.9.2
 
 Node version: 
+<<<<<<< HEAD
   8.11.2
+=======
+  8.10.0
+>>>>>>> 01468a204ed71a0bd7ad16bc52b1d60a0f01c72d
 
 Platform: 
   linux x64
@@ -18,13 +29,22 @@ Trace:
       at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:125950:13)
       at emitNone (events.js:106:13)
       at Interface.emit (events.js:208:7)
+<<<<<<< HEAD
       at Interface._ttyWrite (readline.js:774:16)
       at ReadStream.onkeypress (readline.js:158:10)
+=======
+      at Interface._ttyWrite (readline.js:775:16)
+      at ReadStream.onkeypress (readline.js:160:10)
+>>>>>>> 01468a204ed71a0bd7ad16bc52b1d60a0f01c72d
       at emitTwo (events.js:126:13)
       at ReadStream.emit (events.js:214:7)
       at emitKeys (internal/readline.js:420:14)
       at emitKeys.next (<anonymous>)
+<<<<<<< HEAD
       at ReadStream.onData (readline.js:1010:36)
+=======
+      at ReadStream.onData (readline.js:1011:36)
+>>>>>>> 01468a204ed71a0bd7ad16bc52b1d60a0f01c72d
 
 npm manifest: 
   No manifest

@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/kakapo-2018/The-Fab-Four-2018.git",
-  "author": "harrison@devacademy.co.nz <harrison-symes>",
+  "author": "Nat <nat_sirisamphan@hotmail.com>",
   "license": "MIT",
-  "scripts": {
-    "debug": "nodemon",
-    "start": "node index"
-  },
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "nodemon": "^1.18.3"
+    "jest": "^23.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "debug": "nodemon"
+  },
+  "scripts": {
+    "start": "node index"
   }
 }
