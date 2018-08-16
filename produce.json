@@ -1,0 +1,19 @@
+{
+  "produce":[
+  {
+    "id": "id",
+    "name": "name",
+    "price": "price",
+    "description": "description",
+    "image": "image"
+  },
+  { 
+    "id": "id",
+    "name": "name",
+    "price": "price",
+    "description": "description",
+    "image": "image"
+   } 
+  ]
+}
+//Spring 1 - 8 Summer 9 - 16 Fall 17 - 24 Winter 25 - 32
