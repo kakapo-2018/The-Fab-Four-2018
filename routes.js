@@ -6,6 +6,11 @@ const data = require('./produce.json')
 module.exports = router
 
 router.get ('/', (req, res) => {
-  res.render('./views')
+  res.render('./layouts/main.hbs', data)
 })
+
+// router.get('/spring',(req,req) =>{
+
+//   let spring = data.filter(e => e.season == 'Spring')
+// })
 
