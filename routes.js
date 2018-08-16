@@ -20,11 +20,17 @@ router.get ('/categories', (req, res) => {
 router.get ('/categories/:id', (req, res) => {
   const id = req.params.id //just testing 1 or 2
 
-  if (id == 1){
-    res.send('category id' + id)
-  }
- else if (id == 2){
-  res.send('category id' + id)
-}
+const found = data.produce.find(function(produce) {
+  return produce.id == id
+})
+res.send(found)
+// res.render('categories/TEMP', found)
+
+//   if (id == 1){
+//     res.send('category id' + id)
+//   }
+//  else if (id == 2){
+//   res.send('category id' + id)
+
 })
 
