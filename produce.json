@@ -4,6 +4,7 @@
       "id": "1",
       "name": "Dragon Fruit",
       "price": "3.50",
+      "season": "Summer",
       "description": "Eat this, become a dragon",
       "image": "./public/images/dragonfruit-01"
     },
@@ -11,13 +12,15 @@
       "id": "2",
       "name": "Star Fruit",
       "price": "96.00",
+      "season": "Summer",
       "description": "Harvested from a Fallen Star, sweet and Grants a wish",
       "image": "./public/images/starfruit-02"
     },
     {
       "id": "3",
-      "name": "Passion Fruit",
+      "name": "Passionfruit",
       "price": "3.10",
+      "season": "Summer",
       "description": "Passionfruit and mango fruit souffle mm..",
       "image": "./public/images/passionfruit-03"
     },
@@ -25,20 +28,23 @@
       "id": "4",
       "name": "Mango",
       "price": "5.00",
+      "season": "Summer",
       "description": "When a man has to go, he's a mango",
       "image": "./public/images/mango-04"
     },
     {
       "id": "5",
       "name": "Mangosteen",
-      "price": "",
+      "price": "10.98",
+      "season": "Summer",
       "description": "It's a Mango + Steen mmm..",
       "image": "./public/images/mangosteen-05"
     },
     {
       "id": "6",
       "name": "Coconut",
-      "price": "",
+      "price": "5.50",
+      "season": "Summer",
       "description": "Chocolate Nut",
       "image": "./public/images/coconut-06"
     },
@@ -46,6 +52,7 @@
       "id": "7",
       "name": "Custard Apple",
       "price": "6.00",
+      "season": "Summer",
       "description": "Mmm...",
       "image": "./public/images/custardapple-07"
     },
@@ -53,6 +60,7 @@
       "id": "8",
       "name": "Durian",
       "price": "40.00",
+      "season": "Summer",
       "description": "Smelly, Spikey, Yummy",
       "image": "./public/images/durian-08"
     },
@@ -60,54 +68,63 @@
       "id": "09",
       "name": "Asparagus",
       "price": "3.99",
+      "season": "Spring",
       "description": "Where did the asparagus go to have a few drinks? The Salad Bar!",
       "image": "./public/images/09.asparagus.jpg"
     },{
       "id": "10",
       "name": "Ginger",
       "price": "1.25",
+      "season": "Spring",
       "description": "mom said she wanted some ginger in her tea",
       "image": "./public/images/10.ginger.jpg"
     },{
       "id": "11",
       "name": "Kumara",
       "price": "2.78",
+      "season": "Spring",
       "description": "How many grams of protein are in a sweet potato pi? 3.14159265",
       "image": "./public/images/11.kumara.jpg"
     },{
       "id": "12",
       "name": "Radish",
       "price": "2.50",
+      "season": "Spring",
       "description": "What is small, red and whispers? A hoarse radish ",
       "image": "./public/images/12.radish.jpg"
     },{
       "id": "13",
       "name": "Avocado",
       "price": "5.95",
+      "season": "Spring",
       "description": "What do you call an avocado thats been blessed? Holy Guacamole",
       "image": "./public/images/13.avocado.jpg"
     },{
       "id": "14",
-      "name": "Kiwi fruit",
+      "name": "Kiwifruit",
       "price": "4.59",
+      "season": "Spring",
       "description": "I know it's wrong but it feels so ripe",
       "image": "./public/images/14.kiwifruit.jpg"
     },{
       "id": "15",
       "name": "Orange",
       "price": "3.44",
+      "season": "Spring",
       "description": "Why do oranges wear suntan lotion? Because they peel.",
       "image": "./public/images/15.orange.jpg"
     },{
       "id": "16",
       "name": "Papaya",
       "price": "5.97",
+      "season": "Spring",
       "description": "I love it when you call me big papaya",
       "image": "./public/images/16.papaya.jpeg"
     },{
     "id": "17",
     "name": "Persimmon",
     "price": "23.56",
+    "season": "Autumn",
     "description": "I love you from my head tomatoes.",
     "image": "./public/images/17.jpg"
   },
@@ -115,6 +132,7 @@
     "id": "18",
     "name": "Kohlrabi",
     "price": "00.87",
+    "season": "Autumn",
     "description": "It takes two to mango.",
     "image": "./public/images/18.jpg"
    },
@@ -122,6 +140,7 @@
     "id": "19",
     "name": "Chicory Witloof",
     "price": "12.46",
+    "season": "Autumn",
     "description": "You did a grape job raisin me.",
     "image": "./public/images/19.jpg"
   },
@@ -129,6 +148,7 @@
     "id": "20",
     "name": "Hedge Apple",
     "price": "1234567.89",
+    "season": "Autumn",
     "description": "I'm feeling melon-choly.",
     "image": "./public/images/20.jpg"
    },
@@ -136,6 +156,7 @@
     "id": "21",
     "name": "Cloudberry",
     "price": "45.02",
+    "season": "Autumn",
     "description": "Olive you so much.",
     "image": "./public/images/21.jpg"
   },
@@ -143,6 +164,7 @@
     "id": "22",
     "name": "Guavas",
     "price": "3.21",
+    "season": "Autumn",
     "description": "Marry you? No, I cantaloupe.",
     "image": "./public/images/22.jpg"
    },
@@ -150,13 +172,15 @@
     "id": "23",
     "name": "Pomegranate",
     "price": "4.99",
+    "season": "Autumn",
     "description": "I yam what I yam!",
     "image": "./public/images/23.jpg"
   },
   { 
     "id": "24",
-    "name": "Passionfruit",
+    "name": "The Forbidden Fruit",
     "price": "68.21",
+    "season": "Autumn",
     "description": "Lettuce turnip the beets!",
     "image": "./public/images/24.jpg"
    },
@@ -164,6 +188,7 @@
     "id": "25",
     "name": "Leek",
     "price": "2.51",
+    "season": "Winter",
     "description": "Plauging houses built in the early 2000's, leeks have given many families nights filled with sleepless worries.",
     "image": "/public/images/leeks-25.jpg"
   },
@@ -171,6 +196,7 @@
     "id": "26",
     "name": "Prickly Pear",
     "price": "8.94",
+    "season": "Winter",
     "description": "Also known as the Barbary fig this particular fruit should be eaten in a single gulp, spines and all.",
     "image": "/public/images/prickly-pear-26.jpg"
    },
@@ -178,13 +204,15 @@
     "id": "27",
     "name": "Cherimoya",
     "price": "5.59",
+    "season": "Winter",
     "description": "Honestly Dave, our stockist, bought them as a joke. No one know what these are.",
     "image": "/public/images/cherimoya-27.jpg"
    },
    { 
     "id": "28",
-    "name": "Permissons",
+    "name": "Carrots",
     "price": "3.11",
+    "season": "Winter",
     "description": "These are no different from tomatos. Treat as a 1-to-1 replacement in recipes.",
     "image": "/public/images/permissons-28.jpg"
    },
@@ -192,6 +220,7 @@
     "id": "29",
     "name": "Kale",
     "price": "2.85",
+    "season": "Winter",
     "description": "Kale rhyming with fail is no accident. This digusting plant has forced its way into the mainstream through aggressive lobbying and dirty deals which are tantamount to treason.",
     "image": "/public/images/kale-29.jpg"
    },
@@ -199,6 +228,7 @@
     "id": "30",
     "name": "Pear",
     "price": "1.12",
+    "season": "Winter",
     "description": "Understated and humble, this delight wows audiences worldwide and should definatley be bought instead of disgusting kale.",
     "image": "/public/images/pear-30.jpg"
    },
@@ -206,6 +236,7 @@
     "id": "31",
     "name": "Pumello",
     "price": "6.53",
+    "season": "Winter",
     "description": "Looks a bit like a lime so must taste a bit like a lime.",
     "image": "/public/images/pumello-31.jpg"
    },
@@ -213,6 +244,7 @@
     "id": "32",
     "name": "Turnip",
     "price": "1.24",
+    "season": "Winter",
     "description": "Turnips are the workhorse of the tubular root family bringing nutrition to millions of the starving masses during the cold winter months.",
     "image": "/public/images/turnip-32.jpg"
    }
