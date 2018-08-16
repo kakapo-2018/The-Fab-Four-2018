@@ -1,6 +1,54 @@
 {
   "produce":[
-   {
+    {
+      "id": "09",
+      "name": "Asparagus",
+      "price": "3.99",
+      "description": "Where did the asparagus go to have a few drinks? The Salad Bar!",
+      "image": "./public/images/09.asparagus.jpg"
+    },{
+      "id": "10",
+      "name": "Ginger",
+      "price": "1.25",
+      "description": "mom said she wanted some ginger in her tea",
+      "image": "./public/images/10.ginger.jpg"
+    },{
+      "id": "11",
+      "name": "Kumara",
+      "price": "2.78",
+      "description": "How many grams of protein are in a sweet potato pi? 3.14159265",
+      "image": "./public/images/11.kumara.jpg"
+    },{
+      "id": "12",
+      "name": "Radish",
+      "price": "2.50",
+      "description": "What is small, red and whispers? A hoarse radish ",
+      "image": "./public/images/12.radish.jpg"
+    },{
+      "id": "13",
+      "name": "Avocado",
+      "price": "5.95",
+      "description": "What do you call an avocado thats been blessed? Holy Guacamole",
+      "image": "./public/images/13.avocado.jpg"
+    },{
+      "id": "14",
+      "name": "Kiwi fruit",
+      "price": "4.59",
+      "description": "I know it's wrong but it feels so ripe",
+      "image": "./public/images/14.kiwifruit.jpg"
+    },{
+      "id": "15",
+      "name": "Orange",
+      "price": "3.44",
+      "description": "Why do oranges wear suntan lotion? Because they peel.",
+      "image": "./public/images/15.orange.jpg"
+    },{
+      "id": "16",
+      "name": "Papaya",
+      "price": "5.97",
+      "description": "I love it when you call me big papaya",
+      "image": "./public/images/16.papaya.jpeg"
+    },{
     "id": "17",
     "name": "Persimmon",
     "price": "23.56",
