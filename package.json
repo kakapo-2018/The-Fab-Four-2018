@@ -1,0 +1,19 @@
+{
+  "name": "The-Fab-Four-2018",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kakapo-2018/The-Fab-Four-2018.git",
+  "author": "Nat <nat_sirisamphan@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "jest": "^23.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node index"
+  }
+}
