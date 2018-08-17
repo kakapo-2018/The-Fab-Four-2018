@@ -18,8 +18,6 @@ router.get ('/', (req, res) => {
 router.get ('/categories', (req, res) => {
 
   const seasonData = data.produce.filter(data => data.season == "Spring")
-  // console.log(seasonData);
-  // res.send("hi")
   res.render('layouts/spring.hbs', {seasonData})
 })
 
@@ -38,8 +36,13 @@ router.get ('/cart', (req, res) => {
   res.send('cart')
 })
 
+
+
+
 router.get ('/spring', (req, res) => {
-  res.send('spring page')
+//  res.send('spring page');
+const seasonData = data.produce.filter(data => data.season == "Spring")
+  res.render('layouts/spring.hbs', {seasonData})
 })
 
 router.get ('/spring/:id', (req, res) => {
@@ -55,10 +58,18 @@ router.get ('/spring/:id', (req, res) => {
     }
 // res.render('spring/TEMP', found)
 
+const inDiv = data.produce.find(data => data.id == req.params.id)
+  res.render('layouts/indivdual.hbs', inDiv)
+
 })
 
+
+
+
 router.get ('/summer', (req, res) => {
-  res.send('summer page')
+  const seasonData = data.produce.filter(data => data.season == "Summer")
+  res.render('layouts/summer.hbs', {seasonData})
+  //res.send('summer page')
 })
 
 router.get ('/summer/:id', (req, res) => {
@@ -74,10 +85,17 @@ router.get ('/summer/:id', (req, res) => {
     }
 // res.render('summer/TEMP', found)
 
+const inDiv = data.produce.find(data => data.id == req.params.id)
+  res.render('layouts/indivdual.hbs', inDiv)
+
 })
 
+
+
 router.get ('/autumn', (req, res) => {
-  res.send('autumn page')
+  const seasonData = data.produce.filter(data => data.season == "Autumn")
+  res.render('layouts/autumn.hbs', {seasonData})
+  //res.send('autumn page')
 })
 
 router.get ('/autumn/:id', (req, res) => {
@@ -93,10 +111,17 @@ router.get ('/autumn/:id', (req, res) => {
     }
 // res.render('spring/autumn', found)
 
+const inDiv = data.produce.find(data => data.id == req.params.id)
+  res.render('layouts/indivdual.hbs', inDiv)
+
 })
 
+
+
 router.get ('/winter', (req, res) => {
-  res.send('winter page')
+  const seasonData = data.produce.filter(data => data.season == "Winter")
+  res.render('layouts/winter.hbs', {seasonData})
+ // res.send('winter page')
 })
 
 router.get ('/winter/:id', (req, res) => {
@@ -113,6 +138,9 @@ if (id >= 25 && id <= 32){
 
 
 // res.render('spring/winter', found)
+
+const inDiv = data.produce.find(data => data.id == req.params.id)
+  res.render('layouts/indivdual.hbs', inDiv)
 
 })
 

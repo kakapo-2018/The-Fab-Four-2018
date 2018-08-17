@@ -6,7 +6,7 @@
       "price": "3.50",
       "season": "Summer",
       "description": "Eat this, become a dragon",
-      "image": "/images/dragonfruit-01"
+      "image": "/images/dragonfruit-01.jpeg"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "price": "96.00",
       "season": "Summer",
       "description": "Harvested from a Fallen Star, sweet and Grants a wish",
-      "image": "/images/starfruit-02"
+      "image": "/images/starfruit-02.jpg"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "price": "3.10",
       "season": "Summer",
       "description": "Passionfruit and mango fruit souffle mm..",
-      "image": "/images/passionfruit-03"
+      "image": "/images/passionfruit-03.jpg"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "price": "5.00",
       "season": "Summer",
       "description": "When a man has to go, he's a mango",
-      "image": "/images/mango-04"
+      "image": "/images/mango-04.jpeg"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "price": "10.98",
       "season": "Summer",
       "description": "It's a Mango + Steen mmm..",
-      "image": "/images/mangosteen-05"
+      "image": "/images/mangosteen-05.jpg"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "price": "5.50",
       "season": "Summer",
       "description": "Chocolate Nut",
-      "image": "/images/coconut-06"
+      "image": "/images/coconut-06.jpeg"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "price": "6.00",
       "season": "Summer",
       "description": "Mmm...",
-      "image": "/images/custardapple-07"
+      "image": "/images/custardapple-07.jpg"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "price": "40.00",
       "season": "Summer",
       "description": "Smelly, Spikey, Yummy",
-      "image": "/images/durian-08"
+      "image": "/images/durian-08.jpg"
     },
     {
       "id": "9",
