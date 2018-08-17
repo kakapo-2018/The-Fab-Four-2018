@@ -2,17 +2,11 @@
 {{#each seasonData}}
 <div class='col-sm-4 inline'>
   <div class="card" style="width: 18rem;">
-  <a href='/categories/{{id}}'><img class="card-img-top" src="{{image}}"></a>
+  <a href='/autumn/{{id}}'><img class="card-img-top" src="{{image}}"></a>
     <div class="card-body">
         <h5 class="card-title">{{name}}</h5>
         {{!-- <p class="card-text">{{description}}</p>  --}}
         <p>${{price}} each</p>
-        <input type = "text">
-        <a href="#" class="btn btn-primary">Change me to POST</a>
-    </div>
   </div>
 </div>
 {{/each}}
-<div>
-  <a href="/" class="btn btn-primary">Home</a>
-</div>
