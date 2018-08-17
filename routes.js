@@ -12,13 +12,27 @@ router.get ('/', (req, res) => {
   res.render('layouts/homescreen.hbs', data)
 })
 
+
+
+
 router.get ('/categories', (req, res) => {
 
   const seasonData = data.produce.filter(data => data.season == "Spring")
-  console.log(seasonData);
+  // console.log(seasonData);
   // res.send("hi")
   res.render('layouts/spring.hbs', {seasonData})
 })
+
+router.get ('/categories/:id', (req, res) => {
+
+  const inDiv = data.produce.find(data => data.id == req.params.id)
+  res.render('layouts/indivdual.hbs', inDiv)
+})
+
+
+
+
+
 
 router.get ('/cart', (req, res) => {
   res.send('cart')
