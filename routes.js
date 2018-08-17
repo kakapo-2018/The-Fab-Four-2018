@@ -1,6 +1,7 @@
 let express = require('express')
 let router = express.Router()
 const data = require('./produce.json')
+const fullCart = require('./cart.json')
 // let fs = require('fs')
 //let empty = {}
 module.exports = router
@@ -33,7 +34,16 @@ router.get ('/categories/:id', (req, res) => {
 
 
 router.get ('/cart', (req, res) => {
-  res.send('cart')
+  //res.send('cart')
+  let subTotal;
+  let price = 5;
+  let quantity = 2;
+  function calculate(price, quantity){
+    subTotal =  price * quantity
+    return subTotal
+  }
+  let stuff = fullCart.cart
+  res.render('layouts/cart.hbs', {stuff})
 })
 
 

@@ -1,0 +1,28 @@
+{
+  "cart":[
+    {
+      "id": "1",
+      "name": "Dragon Fruit",
+      "price": "3.50",
+      "season": "Summer",
+      "description": "Eat this, become a dragon",
+      "image": "/images/dragonfruit-01.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Star Fruit",
+      "price": "96.00",
+      "season": "Summer",
+      "description": "Harvested from a Fallen Star, sweet and Grants a wish",
+      "image": "/images/starfruit-02.jpg"
+    },
+   { 
+    "id": "32",
+    "name": "Turnip",
+    "price": "1.24",
+    "season": "Winter",
+    "description": "Turnips are the workhorse of the tubular root family bringing nutrition to millions of the starving masses during the cold winter months.",
+    "image": "/images/turnip-32.jpg"
+   }
+  ]
+}
