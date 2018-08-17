@@ -8,11 +8,11 @@
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "fs": "^0.0.1-security",
     "jest": "^23.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
-
   },
   "scripts": {
     "start": "node index",

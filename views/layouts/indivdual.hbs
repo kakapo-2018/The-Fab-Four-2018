@@ -2,11 +2,15 @@
   <div class="card" style="width: 18rem;">
   <a href='/categories/{{id}}'><img class="card-img-top" src="{{image}}"></a>
     <div class="card-body">
+      <form class='form' action="/{{season}}/{{id}}" method='POST'>
         <h5 class="card-title">{{name}}</h5>
         <p class="card-text">{{description}}</p> 
         <p>${{price}} each</p>
-        <input type = "text">
-        <a href="#" class="btn btn-primary">Change me to POST</a>
+        <label for="name" class="form-item">
+          <input type = "text" name="name">
+        </label>
+        <input type="submit" name="" value="AtC">
+      </form>
     </div>
   </div>
 </div>

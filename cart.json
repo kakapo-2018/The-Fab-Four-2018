@@ -1,0 +1,58 @@
+{
+  "cart": [
+    {
+      "quantity": "3",
+      "Totalprice": 11.97,
+      "price": "3.99",
+      "item": "Asparagus"
+    },
+    {
+      "quantity": "4",
+      "Totalprice": 15.96,
+      "price": "3.99",
+      "item": "Asparagus"
+    },
+    {
+      "quantity": "4",
+      "Totalprice": 10,
+      "price": "2.50",
+      "item": "Radish"
+    },
+    {
+      "quantity": "6",
+      "Totalprice": 35.7,
+      "price": "5.95",
+      "item": "Avocado"
+    },
+    {
+      "quantity": "5",
+      "Totalprice": 117.8,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "5",
+      "Totalprice": 117.8,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "3",
+      "Totalprice": 10.5,
+      "price": "3.50",
+      "item": "Dragon Fruit"
+    },
+    {
+      "quantity": "3",
+      "Totalprice": 10.5,
+      "price": "3.50",
+      "item": "Dragon Fruit"
+    },
+    {
+      "quantity": "4",
+      "Totalprice": 35.76,
+      "price": "8.94",
+      "item": "Prickly Pear"
+    }
+  ]
+}
