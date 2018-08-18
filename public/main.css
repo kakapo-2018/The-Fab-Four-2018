@@ -9,3 +9,19 @@
   text-align: center;
   margin: 0;
 }
+
+.spring{
+  background-image: url('/public/images/spring.jpg')
+}
+
+.summer{
+  background-image: url('/public/images/summer.jpg')
+}
+
+.autumn{
+  background-image: url('/public/images/autumn.jpg')
+}
+
+.winter{
+  background-image: url('/public/images/winter.jpg')
+}
