@@ -5,6 +5,52 @@
       "Totalprice": 11.97,
       "price": "3.99",
       "item": "Asparagus"
+    },
+    {
+      "quantity": "1",
+      "Totalprice": 23.56,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "",
+      "Totalprice": 0,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "",
+      "Totalprice": 0,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "3",
+      "Totalprice": 70.67999999999999,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "dghfgbh",
+      "Totalprice": null,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "quantity": "23",
+      "Totalprice": 541.88,
+      "price": "23.56",
+      "item": "Persimmon"
+    },
+    {
+      "Totalprice": null,
+      "price": "5.95",
+      "item": "Avocado"
+    },
+    {
+      "Totalprice": null,
+      "price": "5.95",
+      "item": "Avocado"
     }
   ]
 }

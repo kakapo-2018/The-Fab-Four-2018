@@ -1,10 +1,11 @@
 <h1>Cart</h1>
+
 {{#each stuff}}
 <div>
   Name: {{item}},  price: ${{price}}, quantity: {{quantity}}, subTotal: {{Totalprice}}
 </div>
 {{/each}}
 
-<div>
-  <a href="/" class="btn btn-primary">Home</a>
+<div class="btn-group" role="group" aria-label="...">
+  <a href="/" class="btn btn-primary btn-lg">Home</a>
 </div>
