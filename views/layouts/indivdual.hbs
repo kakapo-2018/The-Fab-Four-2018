@@ -1,10 +1,10 @@
-<div class='col-sm-4 inline'>
-  <div class="card" style="width: 18rem;">
-  <a href='/categories/{{id}}'><img class="card-img-top" src="{{image}}"></a>
-    <div class="card-body">
+{{!-- <div>
+  <div>
+  <a href='/{{season}}/{{id}}'><img src="{{image}}"></a>
+    <div>
       <form class='form' action="/{{season}}/{{id}}" method='POST'>
-        <h5 class="card-title">{{name}}</h5>
-        <p class="card-text">{{description}}</p> 
+        <h3>{{name}}</h3>
+        <p>{{description}}</p> 
         <p>${{price}} each</p>
         <label for="name" class="form-item">
           <input type = "text" name="name">
@@ -13,7 +13,38 @@
       </form>
     </div>
   </div>
+</div> --}}
+
+<div class="headbar longview {{season}}">
+  <div class="headwrap shortview">
+    <h2>{{season}}</h2>
+  </div>
 </div>
-<div>
-  <br><a href="/" class="btn btn-primary">Home</a><br><br><a href="/categories" class="btn btn-primary">Back</a>
+
+<div class="cardholder {{season}}">
+  <div class="card">
+      <div>
+        <a href='/{{season}}/{{id}}'><img class="picholder" src="{{image}}"></a>
+      <div class="contents">
+        <form autocomplete="off" class='form' action="/{{season}}/{{id}}" method='POST'>
+          <h3>{{name}}</h3>
+          <p>{{description}}</p> 
+          <p>${{price}} each</p>
+          <label for="name" class="form-item">
+            <input type="text" name="name">
+          </label>
+          <input class="button" type="submit" name="" value="Add">
+       </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="{{season}} home">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="{{season}} home">
+  <a href="/{{season}}"><h4>Back</h4></a>
 </div>

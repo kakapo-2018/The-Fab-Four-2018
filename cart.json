@@ -5,6 +5,12 @@
       "Totalprice": 11.97,
       "price": "3.99",
       "item": "Asparagus"
+    },
+    {
+      "quantity": "4",
+      "Totalprice": 19.96,
+      "price": "4.99",
+      "item": "Pomegranate"
     }
   ]
 }

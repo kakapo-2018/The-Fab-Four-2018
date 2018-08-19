@@ -1,12 +1,24 @@
-<h1>Winter</h1>
-{{#each seasonData}}
-<div class='col-sm-4 inline'>
-  <div class="card" style="width: 18rem;">
-  <a href='/winter/{{id}}'><img class="card-img-top" src="{{image}}"></a>
-    <div class="card-body">
-        <h5 class="card-title">{{name}}</h5>
-        {{!-- <p class="card-text">{{description}}</p>  --}}
-        <p>${{price}} each</p>
+<div class="headbar longview Winter">
+  <div class="headwrap shortview">
+    <h2>Winter</h2>
   </div>
 </div>
+
+<div class="cardholder Winter">
+{{#each seasonData}}
+
+  <div class="card">
+      <div>
+        <a href='/Winter/{{id}}'><img class = "picholder" src="{{image}}"></a>
+      <div class="contents">
+        <h3>{{name}}</h3>
+        <p>${{price}} each</p>
+      </div>
+    </div>
+  </div>
+
 {{/each}}
+</div>
+<div class="Winter home">
+  <a href="/"><h4>Home</h4></a>
+</div>

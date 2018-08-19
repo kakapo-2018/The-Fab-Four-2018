@@ -1,10 +1,35 @@
-<h1>Cart</h1>
+<div class="headbar longview cart">
+  <div class="headwrap shortview">
+    <h2>Cart</h2>
+  </div>
+</div>
+
+<div class="cartcontain cart">
+  <div class="cart summary">
+    <div><h2>Name</h2></div>
+    <div><h2>Price</h2></div>
+    <div><h2>Quantity</h2></div>
+    <div class='total'><h2>Subtotal</h2></div>
+  </div>
+</div>
 {{#each stuff}}
-<div>
-  Name: {{item}},  price: ${{price}}, quantity: {{quantity}}, subTotal: {{Totalprice}}
+<div class="cartcontain cart">
+  <div class="cart summary">
+    <div><h4>{{item}}</h4></div>
+    <div><h4>${{price}}</h4></div>
+    <div><h4>{{quantity}}</h4></div>
+    <div class='total'><h4>{{Totalprice}}</h4></div>
+  </div>
 </div>
 {{/each}}
 
+
+{{!-- {{#each stuff}}
 <div>
-  <a href="/" class="btn btn-primary">Home</a>
+  Name: {{item}},  price: ${{price}}, quantity: {{quantity}}, subTotal: {{Totalprice}}
+</div>
+{{/each}} --}}
+
+<div class="home">
+  <a href="/"><h4>Home</h4></a>
 </div>

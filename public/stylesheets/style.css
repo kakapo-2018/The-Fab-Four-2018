@@ -12,6 +12,18 @@ img{
   height: 37px;
 }
 
+form{
+  padding-bottom: 10px;
+}
+
+.button{
+  background-color: rgb(75, 75, 153);
+  border: 0;
+  height: 21px;
+  width: 30%;
+  color: white;
+}
+
 .fullwrap{
   display: flex;
   flex-direction: column;
@@ -73,9 +85,42 @@ a{
 }
 
 
-.spring{
+.Spring{
   background-color: peachpuff;
 }
+
+.Summer{
+  background-color: rgb(235, 223, 101);
+}
+
+.Autumn{
+  background-color: rgb(194, 113, 21)
+}
+
+.Winter{
+  background-color: paleturquoise;
+}
+
+.cartcontain{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.cart{
+  background-color: beige;
+}
+
+.summary{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* .total{
+  display: flex;
+  align-self: flex-end;
+} */
 
 .headwrap{
   width: 100%;
