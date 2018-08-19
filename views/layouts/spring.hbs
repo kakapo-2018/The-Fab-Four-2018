@@ -1,15 +1,25 @@
-<h1>Spring</h1>
-{{#each seasonData}}
-<div class='col-sm-4 inline'>
-  <div class="card" style="width: 18rem;">
-  <a href='/spring/{{id}}'><img class="card-img-top" src="{{image}}"></a>
-    <div class="card-body">
-        <h5 class="card-title">{{name}}</h5>
-        {{!-- <p class="card-text">{{description}}</p>  --}}
-        <p>${{price}} each</p>
+
+<div class="headbar longview spring">
+  <div class="headwrap shortview">
+    <h2>Spring</h2>
   </div>
 </div>
+
+<div class="cardholder spring">
+{{#each seasonData}}
+
+  <div class="card">
+      <div>
+        <a href='/spring/{{id}}'><img class = "picholder" src="{{image}}"></a>
+      <div class="contents">
+        <h3>{{name}}</h3>
+        <p>${{price}} each</p>
+      </div>
+    </div>
+  </div>
+
 {{/each}}
+</div>
 <div>
-  <a href="/" class="btn btn-primary">Home</a>
+  <a href="/">Home</a>
 </div>

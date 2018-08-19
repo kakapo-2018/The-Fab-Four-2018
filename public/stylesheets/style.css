@@ -6,6 +6,12 @@ html, body{
   padding: 0;
 }
 
+img{
+  align-self: center;
+  width: 37px;
+  height: 37px;
+}
+
 .fullwrap{
   display: flex;
   flex-direction: column;
@@ -18,6 +24,38 @@ html, body{
 a{
   color: rgb(20, 45, 100);
   text-decoration: none;
+}
+
+.cardholder{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  justify-content: flex-start;
+  width: 310px;
+  border: 2px solid rgb(97, 96, 96);
+  background-color: white;
+
+  margin: 0 10px 20px 10px;
+  border-radius: 5px;
+
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.picholder{
+  padding: 5px;
+  width: calc(100% - 10px);
+  height: 300px;
+  border-bottom: 2px solid #888888;
+}
+
+.contents{
+  margin-left: 10px;
 }
 
 .pic{
@@ -34,11 +72,30 @@ a{
   background-color: rgb(75, 75, 153);
 }
 
+
+.spring{
+  background-color: peachpuff;
+}
+
 .headwrap{
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
+.longview{
+  padding-bottom: 10px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.shortview{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 
 .logo{
   color: white;
@@ -56,11 +113,7 @@ a{
   justify-content: center;
 }
 
-img{
-  align-self: center;
-  width: 37px;
-  height: 37px;
-}
+
 
 .case {
   height: 100%;
@@ -86,22 +139,22 @@ img{
 }
 
 
-.spring {
+.springfront {
   background-image: url('../images/spring.jpg');
   background-repeat: no-repeat;
 }
 
-.summer {
+.summerfront {
   background-image: url('../images/summer.jpg');
   background-repeat: no-repeat;
 }
 
-.autumn {
+.autumnfront {
   background-image: url('../images/autumn.jpg');
   background-repeat: no-repeat;
 }
 
-.winter {
+.winterfront {
   background-image: url('https://www.christchurchnz.com/media/4209/c41-twizelresized.jpg?center=0.41843971631205673,0.4881516587677725&mode=crop&width=1100&heightratio=0.3802083333333333&rnd=131414783190000000');
   background-repeat: no-repeat;
 }
