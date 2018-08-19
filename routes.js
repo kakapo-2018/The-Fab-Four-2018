@@ -16,43 +16,43 @@ router.get ('/', (req, res) => {
 
 
 
-router.get ('/categories', (req, res) => {
+// router.get ('/categories', (req, res) => {
 
-  const seasonData = data.produce.filter(data => data.season == "Spring")
-  res.render('layouts/spring.hbs', {seasonData})
-})
+//   const seasonData = data.produce.filter(data => data.season == "Spring")
+//   res.render('layouts/spring.hbs', {seasonData})
+// })
 
 
 
-router.get ('/categories/:id', (req, res) => {
+// router.get ('/categories/:id', (req, res) => {
 
-  const friend = data.produce.find(data => data.id == req.params.id)
-  res.render('layouts/indivdual.hbs', friend)
-})
+//   const friend = data.produce.find(data => data.id == req.params.id)
+//   res.render('layouts/indivdual.hbs', friend)
+// })
 
-router.post('/categories/:id', (req,res) => {
-  let obj ={}
+// router.post('/categories/:id', (req,res) => {
+//   let obj ={}
 
-  let quantity = req.body.name
+//   let quantity = req.body.name
 
-  const inDiv = data.produce.find(data => data.id == req.params.id)
+//   const inDiv = data.produce.find(data => data.id == req.params.id)
 
-  let Totalprice = Number(inDiv.price) * Number(quantity)
-  let price = inDiv.price
-  let item = inDiv.name
+//   let Totalprice = Number(inDiv.price) * Number(quantity)
+//   let price = inDiv.price
+//   let item = inDiv.name
 
-  obj.quantity = quantity
-  obj.Totalprice = Totalprice
-  obj.price = price
-  obj.item = item
+//   obj.quantity = quantity
+//   obj.Totalprice = Totalprice
+//   obj.price = price
+//   obj.item = item
 
-  fullCart.cart.push(obj)
+//   fullCart.cart.push(obj)
 
-  fs.writeFile('./cart.json', JSON.stringify(fullCart, null, 2), (err) => {
-    if (err) res.send('Not quite right')
-  })
-  res.redirect('/categories/' + req.params.id)
-})
+//   fs.writeFile('./cart.json', JSON.stringify(fullCart, null, 2), (err) => {
+//     if (err) res.send('Not quite right')
+//   })
+//   res.redirect('/categories/' + req.params.id)
+// })
 
 
 
@@ -110,7 +110,7 @@ router.post('/spring/:id', (req,res) => {
   fs.writeFile('./cart.json', JSON.stringify(fullCart, null, 2), (err) => {
     if (err) res.send('Not quite right')
   })
-  res.redirect('/spring/' + req.params.id)
+  res.redirect('/spring')
 })
 
 router.get ('/summer', (req, res) => {
@@ -148,7 +148,7 @@ router.post('/summer/:id', (req,res) => {
   fs.writeFile('./cart.json', JSON.stringify(fullCart, null, 2), (err) => {
     if (err) res.send('Not quite right')
   })
-  res.redirect('/summer/' + req.params.id)
+  res.redirect('/summer')
 })
 
 router.get ('/autumn', (req, res) => {
@@ -187,7 +187,7 @@ router.post('/autumn/:id', (req,res) => {
   fs.writeFile('./cart.json', JSON.stringify(fullCart, null, 2), (err) => {
     if (err) res.send('Not quite right')
   })
-  res.redirect('/autumn/' + req.params.id)
+  res.redirect('/autumn')
 })
 
 router.get ('/winter', (req, res) => {
@@ -228,7 +228,7 @@ router.post('/winter/:id', (req,res) => {
   fs.writeFile('./cart.json', JSON.stringify(fullCart, null, 2), (err) => {
     if (err) res.send('Not quite right')
   })
-  res.redirect('/winter/' + req.params.id)
+  res.redirect('/winter')
 })
 
 //   if (id == 1){

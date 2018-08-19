@@ -11,6 +11,42 @@
       "Totalprice": 19.96,
       "price": "4.99",
       "item": "Pomegranate"
+    },
+    {
+      "quantity": "33",
+      "Totalprice": 105.92999999999999,
+      "price": "3.21",
+      "item": "Guavas"
+    },
+    {
+      "quantity": "1",
+      "Totalprice": 3.21,
+      "price": "3.21",
+      "item": "Guavas"
+    },
+    {
+      "quantity": "4",
+      "Totalprice": 49.84,
+      "price": "12.46",
+      "item": "Chicory Witloof"
+    },
+    {
+      "quantity": "3",
+      "Totalprice": 9.3,
+      "price": "3.10",
+      "item": "Passionfruit"
+    },
+    {
+      "quantity": "5",
+      "Totalprice": 30,
+      "price": "6.00",
+      "item": "Custard Apple"
+    },
+    {
+      "quantity": "6",
+      "Totalprice": 39.18,
+      "price": "6.53",
+      "item": "Pumello"
     }
   ]
 }
