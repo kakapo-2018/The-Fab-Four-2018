@@ -1,0 +1,86 @@
+html, body{
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.front{
+  width: 120px;
+}
+
+a{
+  color: rgb(20, 45, 100);
+  text-decoration: none;
+}
+
+.headbar{
+  height: 75px;
+  display: flex;
+  
+  justify-content: center;
+  background-color: black;
+}
+
+.headwrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  background-color: aquamarine;
+}
+
+.shopping{
+  background-color: brown;
+}
+
+.case {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.season{
+  display: flex;
+  /* align-items: center;
+  align-content: center; */
+  justify-content: center;
+  width: 150px;
+  padding: 10% 21%;
+}
+
+
+.spring {
+  background-image: url('../images/spring.jpg');
+  background-repeat: no-repeat;
+}
+
+.summer {
+  background-image: url('../images/summer.jpg');
+  background-repeat: no-repeat;
+}
+
+.autumn {
+  background-image: url('../images/autumn.jpg');
+  background-repeat: no-repeat;
+}
+
+.winter {
+  background-image: url('https://www.christchurchnz.com/media/4209/c41-twizelresized.jpg?center=0.41843971631205673,0.4881516587677725&mode=crop&width=1100&heightratio=0.3802083333333333&rnd=131414783190000000');
+  background-repeat: no-repeat;
+}
+
+
+
